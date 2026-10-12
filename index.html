@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>有限会社ウエストリウォール|入間市の外壁塗装・屋根塗装</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@700;900&display=swap" rel="stylesheet">
+
+<!--
+=====================================================
+  ★ 使い方 ★
+  下の「CONFIG」の中だけを書き換えてください。
+  それ以外の部分はさわらなくて大丈夫です。
+
+  ・文字は " " (ダブルクォーテーション)の中を書き換える
+  ・使わない項目は "" (空)にすると表示されません
+  ・写真は同じフォルダに入れた画像のファイル名(例: "hero.jpg")
+  ・色は好きなカラーコードに変更できます
+=====================================================
+-->
+<script>
+const CONFIG = {
+  // ── 会社の基本情報 ──
+  companyName: "有限会社ウエストリウォール",
+  logoSub: "入間市の外壁塗装・屋根塗装・リフォーム",
+  area: "入間市・所沢市・狭山市・飯能市ほか",
+  phone: "04-2934-6477",
+  phoneHours: "土日も営業|ご相談・お見積もり無料",
+
+  // ── メインのキャッチコピー ──
+  catchLine1: "品質を下げてまで、",
+  catchLine2: "値引き合戦はしません。",
+  subCopy: "入間市で2001年から、自社の職人が一軒ずつ塗り替えています。契約にはできるだけ代表の西が自ら立ち会い、お住まいに合わせたお見積もりをお出しします。",
+
+  // ── 強み(相手のサイトに書いてあることだけ) ──
+  strengths: [
+    { big: "創業2001年", small: "入間市で地域密着の塗装店" },
+    { big: "自社職人", small: "大手のように下請けに出しません" },
+    { big: "定期訪問", small: "施工後もお住まいを点検に伺います" }
+  ],
+
+  // ── ボタン ──
+  ctaMain: "無料で相談・見積もりを申し込む",
+  ctaLink: "http://www.west-rewall.com/form/index.html",
+  fixMailLabel: "無料見積もりを申し込む",
+
+  // ── 写真(同じフォルダに hero.jpg を入れる) ──
+  heroImage: "hero.jpg",
+
+  // ── 上のメニュー ──
+  menu: ["外壁塗装", "屋根工事", "防水工事", "施工例", "会社案内"],
+
+  // ── 代表のことば(その会社だけのブロック。不要なら title を "" に) ──
+  message: {
+    title: "代表あいさつ",
+    lead: "「ウエストリウォールさんに頼んで良かった」\nそのお顔が、私のいちばんの幸せです。",
+    body: "当社の塗装工事は地域密着型で、大手さんのように下請さんに工事を出すのではなく、自社職人の施工で工事代金を抑え、技術の向上を目指しています。他社の見積もりより安くするためだけの値引きはせず、お客様一人ひとりのお住まいに合わせたお見積もりをお出しします。",
+    name: "代表 西 剛司"
+  },
+
+  // ── お客様の声(Googleクチコミから。不要なら [] に) ──
+  voicesTitle: "お客様の声",
+  voicesNote: "Googleクチコミ 評価4.7(3件)より抜粋",
+  voices: [
+    { text: "飛び込みの業者さんと契約しかけて困っていたところ、ウエストの社長さんが来てくれて、断っても大丈夫だと言ってくれました。そのおかげで、はっきりお断りすることができました。", who: "Y様" },
+    { text: "営業さんは他社と違い、上辺だけの嘘は言いません。配色についても親切に対応してくれました。足場から完成まで同じ職人さんが対応するので、気になることをいつでも尋ねられます。", who: "N様" },
+    { text: "一流メーカーの塗料をお安く、大変丁寧に塗ってくださいました。社員の皆さんがとてもがんばっています。", who: "W様" }
+  ],
+
+  // ── 色 ──
+  mainColor: "#1f3a5f",
+  accentColor: "#d9822b",
+
+  // ── デモであることの表示 ──
+  showDemoNotice: true,
+  demoNotice: "このページは有限会社ウエストリウォール様のためにお作りしたホームページのデモです。"
+};
+</script>
+
+<style>
+  :root{
+    --main:#1f3a5f; --accent:#d9822b;
+    --ink:#1e2329; --muted:#4a525c; --paper:#ffffff; --soft:#f5f3ef;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:"Noto Sans JP",sans-serif; color:var(--ink); background:var(--paper);
+    font-size:18px; line-height:1.85; letter-spacing:.03em;
+  }
+  a{color:inherit;text-decoration:none}
+
+  .demo{background:var(--soft);color:var(--muted);font-size:14px;text-align:center;padding:10px 16px;line-height:1.6}
+
+  header{background:#fff;border-bottom:1px solid #e6e3dd;position:sticky;top:0;z-index:20}
+  .head-in{max-width:1200px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+  .logo small{display:block;font-size:13px;color:var(--muted);letter-spacing:.06em;line-height:1.4}
+  .logo strong{display:block;font-family:"Noto Serif JP",serif;font-size:24px;color:var(--main);line-height:1.3;font-weight:900}
+  nav{display:flex;gap:26px;font-size:16px;font-weight:500}
+  nav a:hover{color:var(--main)}
+  .head-tel{text-align:right;line-height:1.35;white-space:nowrap}
+  .head-tel a{font-size:26px;font-weight:900;color:var(--main);letter-spacing:.02em}
+  .head-tel span{display:block;font-size:13px;color:var(--muted)}
+
+  .hero{position:relative;min-height:640px;display:flex;align-items:center;color:#fff;overflow:hidden;
+    background:linear-gradient(135deg,var(--main),#0f1f33)}
+  .hero-img{position:absolute;inset:0;background-size:cover;background-position:center}
+  .hero::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,rgba(10,20,35,.82) 0%,rgba(10,20,35,.55) 55%,rgba(10,20,35,.15) 100%)}
+  .hero-in{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:80px 20px 150px;width:100%}
+  .area{display:inline-block;border:1px solid rgba(255,255,255,.7);padding:6px 18px;font-size:16px;margin-bottom:26px;letter-spacing:.06em}
+  h1{font-family:"Noto Serif JP",serif;font-weight:900;font-size:clamp(32px,5.2vw,60px);line-height:1.45;letter-spacing:.04em}
+  h1 span{display:block}
+  .sub{max-width:640px;margin-top:26px;font-size:19px;line-height:1.95;color:rgba(255,255,255,.93)}
+  .cta-row{display:flex;flex-wrap:wrap;gap:16px 28px;margin-top:38px;align-items:center}
+  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;
+    font-size:20px;font-weight:700;padding:20px 38px;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+  .btn:hover{filter:brightness(1.07)}
+  .tel-big{color:#fff;line-height:1.35}
+  .tel-big a{font-size:30px;font-weight:900;letter-spacing:.02em}
+  .tel-big span{display:block;font-size:14px;color:rgba(255,255,255,.85)}
+
+  .strengths{position:relative;z-index:5;max-width:1100px;margin:-90px auto 0;padding:0 20px;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .st{background:#fff;border-top:5px solid var(--main);box-shadow:0 10px 30px rgba(20,30,45,.12);
+    padding:30px 20px;text-align:center}
+  .st b{display:block;font-family:"Noto Serif JP",serif;font-size:32px;color:var(--main);line-height:1.35;font-weight:900}
+  .st small{display:block;font-size:16px;color:var(--muted);margin-top:6px}
+
+  /* 代表のことば */
+  .msg{max-width:900px;margin:0 auto;padding:90px 20px 100px}
+  .msg h2{font-size:17px;color:var(--main);letter-spacing:.12em;font-weight:700;text-align:center;margin-bottom:22px}
+  .msg-lead{font-family:"Noto Serif JP",serif;font-weight:900;font-size:clamp(24px,3.4vw,34px);line-height:1.7;
+    text-align:center;color:var(--ink);white-space:pre-line}
+  .msg-body{margin-top:34px;background:var(--soft);padding:34px 38px;font-size:18px;line-height:2}
+  .msg-name{margin-top:20px;text-align:right;font-family:"Noto Serif JP",serif;font-size:22px;font-weight:700;color:var(--main)}
+
+  /* お客様の声 */
+  .voices{background:var(--soft);padding:90px 20px 100px}
+  .voices-in{max-width:1100px;margin:0 auto}
+  .voices h2{font-family:"Noto Serif JP",serif;font-size:clamp(26px,3.4vw,34px);font-weight:900;text-align:center;color:var(--ink)}
+  .voices-note{text-align:center;color:var(--muted);font-size:16px;margin-top:8px}
+  .stars{color:#e0a100;letter-spacing:.1em;font-size:20px}
+  .v-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+  .v{background:#fff;padding:30px 28px;border-radius:4px;box-shadow:0 4px 16px rgba(20,30,45,.06);display:flex;flex-direction:column}
+  .v p{font-size:17px;line-height:1.95;flex:1}
+  .v small{display:block;margin-top:16px;color:var(--muted);font-size:15px;text-align:right}
+
+  .fixbar{display:none}
+
+  @media (max-width:1080px){ nav{display:none} }
+  @media (max-width:720px){
+    body{font-size:17px}
+    .head-in{padding:12px 16px}
+    .logo small{font-size:12px}
+    .logo strong{font-size:20px}
+    .head-tel{display:none}
+    .hero{min-height:auto}
+    .hero::after{background:linear-gradient(180deg,rgba(10,20,35,.6) 0%,rgba(10,20,35,.88) 100%)}
+    .hero-in{padding:56px 16px 120px}
+    .sub{font-size:17px}
+    .btn{width:100%;font-size:19px;padding:18px 16px}
+    .tel-big{display:none}
+    .strengths{grid-template-columns:1fr;margin-top:-70px;padding:0 16px;gap:14px}
+    .st{padding:22px 16px}
+    .st b{font-size:28px}
+    .msg{padding:64px 16px 120px}
+    .msg-body{padding:24px 20px;font-size:17px}
+    .msg{padding-bottom:64px}
+    .voices{padding:64px 16px 120px}
+    .v-grid{grid-template-columns:1fr;gap:14px;margin-top:28px}
+    .v{padding:24px 20px}
+    .fixbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;
+      box-shadow:0 -4px 14px rgba(0,0,0,.15)}
+    .fixbar a{display:flex;align-items:center;justify-content:center;text-align:center;padding:14px 8px;font-size:16px;font-weight:700;color:#fff;line-height:1.4}
+    .fixbar .f-tel{background:var(--main)}
+    .fixbar .f-mail{background:var(--accent)}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo" id="demo"></div>
+
+<header>
+  <div class="head-in">
+    <a class="logo" href="#"><small id="logoSub"></small><strong id="logoName"></strong></a>
+    <nav id="nav"></nav>
+    <div class="head-tel"><a id="headTel" href="#"></a><span id="headHours"></span></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-img" id="heroImg"></div>
+  <div class="hero-in">
+    <div class="area" id="area"></div>
+    <h1><span id="c1"></span><span id="c2"></span></h1>
+    <p class="sub" id="sub"></p>
+    <div class="cta-row">
+      <a class="btn" id="cta" href="#"></a>
+      <div class="tel-big"><a id="heroTel" href="#"></a><span id="heroHours"></span></div>
+    </div>
+  </div>
+</section>
+
+<div class="strengths" id="strengths"></div>
+
+<section class="msg" id="msg">
+  <h2 id="msgTitle"></h2>
+  <p class="msg-lead" id="msgLead"></p>
+  <p class="msg-body" id="msgBody"></p>
+  <p class="msg-name" id="msgName"></p>
+</section>
+
+<section class="voices" id="voices">
+  <div class="voices-in">
+    <h2 id="voicesTitle"></h2>
+    <p class="voices-note"><span class="stars">★★★★★</span><br><span id="voicesNote"></span></p>
+    <div class="v-grid" id="vGrid"></div>
+  </div>
+</section>
+
+<div class="fixbar">
+  <a class="f-tel" id="fixTel" href="#">電話で相談する</a>
+  <a class="f-mail" id="fixMail" href="#"></a>
+</div>
+
+<script>
+(function(){
+  const C = CONFIG, $ = id => document.getElementById(id);
+  const setText = (id, v) => { const el = $(id); if (!v) { el.style.display = "none"; } else { el.textContent = v; } };
+  const telHref = "tel:" + (C.phone || "").replace(/[^0-9+]/g, "");
+
+  document.documentElement.style.setProperty("--main", C.mainColor);
+  document.documentElement.style.setProperty("--accent", C.accentColor);
+
+  if (C.showDemoNotice) $("demo").textContent = C.demoNotice; else $("demo").style.display = "none";
+
+  setText("logoSub", C.logoSub);
+  setText("logoName", C.companyName);
+  $("nav").innerHTML = (C.menu || []).map(m => '<a href="#">' + m + '</a>').join("");
+
+  setText("headTel", C.phone); $("headTel").href = telHref;
+  setText("headHours", C.phoneHours);
+  setText("heroTel", C.phone); $("heroTel").href = telHref;
+  setText("heroHours", C.phoneHours);
+
+  if (C.heroImage) $("heroImg").style.backgroundImage = 'url("' + C.heroImage + '")';
+  setText("area", C.area ? "対応エリア|" + C.area : "");
+  setText("c1", C.catchLine1);
+  setText("c2", C.catchLine2);
+  setText("sub", C.subCopy);
+
+  setText("cta", C.ctaMain); $("cta").href = C.ctaLink || "#";
+  $("fixTel").href = telHref; $("fixMail").href = C.ctaLink || "#";
+  $("fixMail").textContent = C.fixMailLabel || "無料相談を申し込む";
+
+  $("strengths").innerHTML = (C.strengths || []).filter(s => s.big).map(s =>
+    '<div class="st"><b>' + s.big + '</b><small>' + (s.small || "") + '</small></div>').join("");
+
+  const M = C.message || {};
+  if (!M.title) { $("msg").style.display = "none"; }
+  else {
+    setText("msgTitle", M.title); setText("msgLead", M.lead);
+    setText("msgBody", M.body); setText("msgName", M.name);
+  }
+
+  const V = (C.voices || []).filter(v => v.text);
+  if (!V.length) { $("voices").style.display = "none"; }
+  else {
+    setText("voicesTitle", C.voicesTitle); setText("voicesNote", C.voicesNote);
+    $("vGrid").innerHTML = V.map(v =>
+      '<div class="v"><p>' + v.text + '</p><small>' + (v.who ? "Googleクチコミ " + v.who : "") + '</small></div>').join("");
+  }
+})();
+</script>
+</body>
+</html>
